@@ -1,0 +1,155 @@
+html, body {
+  height: auto;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  background-color: #181E20;
+}
+
+/* header */
+header {
+  background-image: url('../img/index/header/bg.png');
+  height: 700px;
+}
+
+.navbar-toggler i {
+  color: #fff;
+  font-size: 3em;
+}
+
+.navbar-nav a {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 50px;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.navbar-nav a:first-child {
+  color: #FFC100;
+}
+
+.title h1 {
+  font-size: 4em;
+  color: #fff;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.desc .line {
+  height: 3px;
+  width: 40px;
+  background-color: #FFC100;
+}
+
+.desc p {
+  color: #fff;
+  font-size: 1.6em;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* header */
+/* ad */
+.ad {
+  position: relative;
+  z-index: 2;
+  margin-top: -175px;
+}
+
+.ad .container {
+  background-color: white;
+  height: auto;
+  max-width: 1430px;
+  margin-right: 0;
+}
+
+.block1, .block2 {
+  height: 350px;
+}
+
+.block1 {
+  background-color: #fff;
+}
+
+.block1 p {
+  font-weight: 700;
+  font-size: 4em;
+  color: #181E20;
+  line-height: 50px;
+}
+
+.block1 button {
+  padding: 0 40px;
+  border: 1px solid #181E20;
+  font-size: 2.1em;
+  color: #181E20;
+  line-height: 50px;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.block2 {
+  background-color: #181E20;
+  margin-top: -50px;
+}
+
+.block2 p {
+  font-weight: 700;
+  font-size: 4em;
+  color: #fff;
+  line-height: 50px;
+}
+
+.block2 button {
+  padding: 0 40px;
+  border: 1px solid #fff;
+  font-size: 2.1em;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 600;
+  background-color: #181E20;
+}
+
+/* ad */
+/* footer */
+footer {
+  position: relative;
+  z-index: 1;
+  background-color: #181E20;
+  margin-top: -180px;
+}
+
+.info {
+  padding-top: 180px;
+}
+
+.info p {
+  font-size: 1.2em;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info p i {
+  font-size: .8em;
+  margin-right: 10px;
+  color: #FFC100;
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.info .copyright p {
+  font-size: 1.3em;
+  line-height: 50px;
+  font-weight: 400;
+  color: #585858;
+}
+
+/* footer */

@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+  body {
+    font-size: 5px;
+  }
+
+  header {
+    min-height: 850px;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 7px;
+  }
+
+  header {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 768px) and(max-width: 991px) and (orientation: landscape) {
+  body {
+    font-size: 7px;
+  }
+
+  header {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ad {
+    margin-top: -50px;
+  }
+
+  .ad .container {
+    width: 800px;
+  }
+
+  footer {
+    margin-top: -300px;
+  }
+
+  .info {
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499) {}
+
+@media (min-width: 1500px) {}

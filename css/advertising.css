@@ -1,0 +1,290 @@
+html, body {
+  height: auto;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 2.6em;
+  font-weight: 600;
+  line-height: 50px;
+  color: #fff;
+}
+
+/* header */
+header {
+  background-image: url('../img/advertising/header/bg.png');
+  background-position: top;
+  height: auto;
+}
+
+.navbar-toggler i {
+  color: #fff;
+  font-size: 3em;
+}
+
+.navbar-nav a {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 50px;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.navbar-nav a:first-child {
+  color: #FFC100;
+}
+
+/* header */
+/* map */
+.map {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .map {
+    position: relative;
+  }
+}
+
+.map .block1, .block2 {
+  background-color: #181E20;
+  pointer-events: auto;
+}
+
+.map .dropdown-toggle {
+  width: 100%;
+}
+
+.map .dropdown-menu {
+  width: 100%;
+}
+
+.map .dropdown button {
+  font-size: 1.4em;
+  font-weight: 400;
+  padding: 10px;
+  color: #181E20;
+  background-color: #fff;
+}
+
+.map input {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 10px;
+  color: #181E20;
+  background-color: #fff;
+}
+
+.map .search {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 40px;
+  text-transform: uppercase;
+  background-color: #FFC100;
+  color: #181E20;
+  border: none;
+}
+
+.ym h3 {
+  padding: 10px 0 0 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.ym p {
+  font-size: .9em;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+.ym button {
+  width: 100%;
+  font-size: .9em;
+  font-weight: 600;
+  background-color: #FFC100;
+  padding: 10px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: #181E20;
+  border: none;
+}
+
+.ym img{
+  width: 100%;
+}
+
+/* map */
+/* requirements */
+.requirements .container {
+  background-color: #181E20;
+}
+
+@media (max-width: 767px) {
+  .requirements .container {
+    margin-top: 425px;
+  }
+}
+
+.requirements p {
+  color: #fff;
+  font-size: 1.6em;
+  line-height: 50px;
+}
+
+.requirements img {
+  padding-right: 10px;
+}
+
+/* requirements */
+/* services */
+.services .title h2 {
+  font-size: 7em;
+  line-height: 80px;
+  color: #181E20;
+  font-weight: 800;
+}
+
+.services p {
+  font-weight: 600;
+  font-size: 1.6em;
+  line-height: 26px;
+  color: #000;
+  padding: 15px 0 10px 0;
+}
+
+.services .button {
+  height: auto;
+}
+
+.services button {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000;
+  background-color: #FFC100;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+}
+
+.services .item {
+  position: relative;
+  height: 330px;
+}
+
+/* services */
+/* clients */
+.clients {
+  background-color: #F2F2F2;
+}
+
+.clients h2 {
+  font-size: 5.8em;
+  line-height: 68px;
+  color: #181E20;
+  font-weight: 800;
+}
+
+.clients .jcarousel {
+  background-color: #F2F2F2;
+}
+
+.clients li {
+  height: 100px;
+  width: 150px !important;
+  padding: 0;
+  border: none;
+  display: flex;
+  margin: 0 20px;
+}
+
+.clients .jcarousel-wrapper {
+  border: 0px;
+  box-shadow: none;
+  position: relative;
+}
+
+.clients ul {
+  border: none;
+}
+
+.jcarousel-control-prev {
+  position: absolute;
+  top: 45px;
+  left: -40px;
+  background-color: #F2F2F2;
+}
+
+.jcarousel-control-next {
+  position: absolute;
+  top: 45px;
+  right: -40px;
+  background-color: #F2F2F2;
+}
+
+/* clients */
+/* footer */
+footer {
+  background-color: #181E20;
+}
+
+.info {}
+
+.info p {
+  font-size: 1.2em;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info p i {
+  font-size: .8em;
+  margin-right: 10px;
+  color: #FFC100;
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .info a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .info a {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .info a {
+    font-size: 13px;
+  }
+}
+
+.info .copyright p {
+  font-size: 1.3em;
+  line-height: 50px;
+  font-weight: 400;
+  color: #585858;
+}
+
+/* footer */
